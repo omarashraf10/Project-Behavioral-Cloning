@@ -128,14 +128,20 @@ the model :-
 To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
 
 [image1]: ./examples/center_2019_02_14_11_28_44_176.jpg "center Image"
+![alt text][image1]
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to return to the middle of the road These images show what a recovery looks like  :
 
 [image2]: ./examples/center_2019_02_14_12_26_06_021.jpg
+![alt text][image2]
 [image3]: ./examples/center_2019_02_14_12_26_06_948.jpg
+![alt text][image3]
 [image4]: ./examples/center_2019_02_14_12_26_04_632.jpg
+![alt text][image4]
 [image5]: ./examples/center_2019_02_14_12_50_51_658.jpg 
+![alt text][image5]
 [image6]: ./examples/center_2019_02_14_12_51_07_111.jpg
+![alt text][image6]
 
 
 To augment the data sat, I also flipped images and angles thinking that this would help the model to generalize better and  give more better accuracy .
